@@ -24,10 +24,3 @@ overlay.addEventListener('click', (e) => {
         overlay.classList.remove('active');
     }
 })
-
-
-class FormValidation {
-    constructor() {
-        
-    }
-}
