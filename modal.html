@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./modal.css">
+    <title>modal</title>
+</head>
+<body>
+    
+    <button class="open-m">open modal</button>
+    
+    <!-- form modal -->
+    <div class="modal" id="modal">
+        <div class="modal-title">
+            <div class="modal-head">Preencha o formulário abaixo para obter contato!</div>
+            <button class="close-btn">&times;</button>
+        </div>
+        <div class="modal-body">
+    
+            <label for="nome">
+                <input type="text" name="nome" id="nome" placeholder="Nome">
+            </label>
+    
+            <label for="email">
+                <input type="email" name="email" id="email" placeholder="E-mail">
+            </label>
+    
+            <label for="telefone">
+                <input type="number" name="telefone" id="telefone" placeholder="Celular/Telefone">
+            </label>
+    
+            <label for="mensagem">
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Mensagem"></textarea>
+            </label>
+    
+            <button class="send-form">Enviar</button>
+        </div>
+    </div>
+    <!-- overlay -->
+    <div class="overlay" id="overlay"></div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
